@@ -1,0 +1,11 @@
+@mixin flex($dir, $justify, $align, $wrap) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+$color-primary: #dff6ff;
+$color-secondary: #256d85;
+$color-tertiary: #06283d;
